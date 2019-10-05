@@ -1,0 +1,802 @@
+header {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #FFFFFF;
+}
+
+.header {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  height: 60px;
+}
+
+.topimgLeft {
+  position: absolute;
+  left: 55px;
+}
+
+.topimgRight {
+  position: absolute;
+  right: 0;
+}
+
+#headerspace {
+  position: fixed;
+  width: 100%;
+  height: 60px;
+}
+
+/* パンくずリスト */
+.pankuz {
+  font-size: 12px;
+  color: #999999;
+  padding: 100px 0 10px 200px;
+  /* background-color: yellow; */
+}
+
+
+/* ヘッダ画像 */
+.irheader  {
+  background-image:url("images/h1_whats_2.jpg");
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  min-width: 30%;
+  height: 250px;
+  max-height: 250px;
+  background-size: cover;
+  }
+
+
+.irheaderone  {
+  font-size: 20px;
+  color: #FFFFFF;
+  padding:  30px 0 0 200px;
+}
+
+.irheadertwo  {
+  font-size: 28px;
+  line-height: 42px;
+  color: #FFFFFF;
+  padding: 5px 0 0 200px;
+}
+
+.pageback {
+  /* background-color: forestgreen; */
+  width: 1000px;
+  max-width: 1000px;
+  height: 1900px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 30px;
+  border-bottom: solid 3px #333333;
+}
+
+
+/* SNSアイコン */
+
+.share img {
+  float: right;
+  width: 24px;
+  height: 24px;
+  padding: 10px;
+}
+
+.pagefront {
+  /* background-color: yellow; */
+  width: 820px;
+  max-width: 820px;
+  height: 1900px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+.title img {
+  padding-right: 10px;
+}
+
+.pagefront p {
+  /* position: absolute; */
+  font-size: 16px;
+  line-height: 30.08px;
+  color: #333333;
+}
+
+.shareframe {
+  width: 820px;
+  height: 34px;
+  /* background-color: bisque; */
+  position: absolute;
+}
+
+.title {
+  width: 820px;
+  height: 34px;
+  /* background-color: pink; */
+  margin-top:50px;
+}
+
+.text {
+  height: 60px;
+  width: 100%
+}
+
+/* デジタルイメージ戦略画像 */
+
+.strategyimage {
+  background-image:url("images/story06_01_2.jpg");
+  width: 820px;
+  height: 432px;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+
+/* デジタルイメージ画像 */
+
+.digitalimage {
+  background-image:url("images/story06_02.jpg");
+  width: 820px;
+  height: 530px;
+  background-size: cover;
+  margin-top: 30px;
+}
+
+
+
+
+.btn {
+  /* background-color: aqua; */
+  width: 820px;
+  height: 110px;
+}
+
+/* ボタン */
+
+.bws-arrow {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	background-color: #005bac;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #FFFFFF;
+	font-size: 1rem;
+	padding: 15px;
+	text-align: center;
+  max-width: 295px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-image:url("images/pdf.png");
+  background-repeat: no-repeat;
+  background-position:  right 20% bottom 30%;
+  position: absolute;
+}
+
+.bws-arrow > *:first-child {
+	width: calc(100% - 10px * 3);
+}
+
+.bws-arrow::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 10px;
+	height: 10px;
+	border-top: solid 1px #FFFFFF;
+	border-right: solid 1px #FFFFFF;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(45deg) translateX(-5px) translateY(5px);
+}
+
+.bws-arrow:hover {
+	opacity: 0.5;
+}
+
+a.bws-arrow:link, a.bws-arrow:active, a.bws-arrow:hover, a.bws-arrow:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+button.bws-arrow {
+	width: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+.btn {
+  /* background-color: red; */
+  width: 820px;
+  height: 150px;
+  clear: both;
+  position: relative;
+}
+
+.Businesleft {
+  float: left;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.Businesleft:hover {
+  text-decoration: underline;
+}
+
+.Businesright {
+  float: right;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+a {
+  text-decoration:none;
+}
+
+.Businesleft:left {
+  text-decoration: underline;
+}
+
+.btn {
+  /* background-color: red; */
+  width: 820px;
+  height: 150px;
+  clear: both;
+  position: relative;
+}
+
+
+/* NRIの強み */
+.nristrong {
+  width: 820px;
+  height: 200px;
+  background-color: #deecf8;
+  clear: both;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.nristrongtext {
+  width: 820px;
+  height: 30px;
+  padding-left: 10px;
+}
+
+.nristrongtext p {
+  font-size: 16px;
+  font-weight: bold;
+  Line-height: 30px;
+  text-align: left;
+  margin-left: 10px;
+  color: #333333;
+}
+
+/* NRIのつよみ・ボタン */
+
+.bw-arrow {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #0c419a;
+	font-size: 14px;
+	padding: 15px;
+	text-align: center;
+	max-width: 239px;
+  height: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px rgb(163, 163, 163);
+}
+
+.bw-arrow > *:first-child {
+	width: calc(100% - 10px * 3);
+}
+
+.bw-arrow::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #333333;
+	border-right: solid 1px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(45deg) translateX(-5px) translateY(5px);
+}
+
+.bw-arrow:hover {
+	opacity: 0.5;
+}
+
+a.bw-arrow:link, a.bw-arrow:active, a.bw-arrow:hover, a.bw-arrow:visited {
+	color: #0c419a;
+	text-decoration: none;
+}
+
+button.bw-arrow {
+	width: 100%;
+	border: none;
+  cursor: pointer;
+}
+
+/* NRIの強みのボタンの枠 */
+
+.bw-arrowframe {
+  display: inline-block;
+  width: 239px;
+  height: 90px;
+}
+
+
+
+/* NRIのつよみ・ボタン 下段*/
+
+.bw-arrowunder {
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between;
+	background-color: #FFFFFF;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	color: #0c419a;
+	font-size: 14px;
+	padding: 8px;
+	text-align: center;
+	max-width: 239px;
+  height: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px rgb(163, 163, 163);
+}
+
+.bw-arrowunder > *:first-child {
+	width: calc(100% - 10px * 3);
+}
+
+.bw-arrowunder::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #333333;
+	border-right: solid 1px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(45deg) translateX(-5px) translateY(5px);
+}
+
+.bw-arrowunder:hover {
+	opacity: 0.5;
+}
+
+a.bw-arrowunder:link, a.bw-arrow:active, a.bw-arrow:hover, a.bw-arrow:visited {
+	color: #0c419a;
+	text-decoration: none;
+}
+
+button.bw-arrowunder {
+	width: 100%;
+	border: none;
+	cursor: pointer;
+}
+
+/* NRIの強みのボタンの枠 */
+
+.bw-arrowframeunder {
+  display: inline-block;
+  width: 239px;
+  height: 51px;
+}
+
+
+/* 企業情報タグ */
+
+.company-information {
+  width: 1000px;
+  max-width: 1000px;
+  height: 85px;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: greenyellow; */
+  border-bottom:  dotted 1px  #333333;
+}
+
+.company-information p {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 85px;
+}
+
+/* リンク集 */
+.link_collection_one {
+  width: 1000px;
+  max-width: 1000px;
+  -webkit-min-width: 30%;
+  -moz-min-width: 30%;
+  -ms-min-width: 30%;
+  -o-min-width: 30%;
+  min-width: 30%;
+  /* background-color: gold; */
+  height: 213px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  border-bottom:  dotted 1px  #333333;
+}
+
+.link_collection_one p {
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.link-box {
+  width: 230px;
+  max-height: 41px;
+  /* background-color: gray; */
+  padding-left: 10px;
+  padding-top: 18px;
+  margin: 0px;
+  display: inline-block;
+}
+
+.link-box p {
+  font-size: 14px;
+  line-height: 41px;
+  color: #0c419a;
+  text-decoration: underline;
+}
+
+.link-box:hover {
+  text-decoration: underline;
+}
+
+.link-box::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #333333;
+	border-right: solid 1px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(45deg) translateX(-5px) translateY(5px);
+}
+
+.link_collection_two {
+  width: 1000px;
+  max-width: 1000px;
+  -webkit-min-width: 30%;
+  -moz-min-width: 30%;
+  -ms-min-width: 30%;
+  -o-min-width: 30%;
+  min-width: 30%;
+  /* background-color: steelblue; */
+  height: 172px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  border-bottom:  dotted 1px  #333333;
+}
+
+.link_collection_two p {
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.link_collection_three {
+  width: 1000px;
+  max-width: 1000px;
+  -webkit-min-width: 30%;
+  -moz-min-width: 30%;
+  -ms-min-width: 30%;
+  -o-min-width: 30%;
+  min-width: 30%;
+  /* background-color: lightcoral; */
+  height: 172px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  border-bottom:  dotted 1px  #333333;
+}
+
+.link_collection_three p {
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.link_collection_four {
+  width: 1000px;
+  max-width: 1000px;
+  -webkit-min-width: 30%;
+  -moz-min-width: 30%;
+  -ms-min-width: 30%;
+  -o-min-width: 30%;
+  min-width: 30%;
+  /* background-color: steelblue; */
+  height: 131px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  border-bottom:  dotted 1px  #333333;
+}
+
+.link_collection_four p {
+  font-size: 16px;
+  line-height: 40px;
+  font-weight: bold;
+}
+
+.link_collection_five {
+  width: 1000px;
+  max-width: 1000px;
+  -webkit-min-width: 30%;
+  -moz-min-width: 30%;
+  -ms-min-width: 30%;
+  -o-min-width: 30%;
+  min-width: 30%;
+  /* background-color: lightcoral; */
+  height: 182px;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+}
+
+.link-box-five {
+  width: 230px;
+  max-height: 41px;
+  /* background-color: gray; */
+  padding-left: 10px;
+  padding-top: 18px;
+  margin: 0px;
+  display: inline-block;
+  margin-top: 70px;
+}
+
+.link-box-five::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #333333;
+	border-right: solid 1px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(-133deg) translateX(7px) translateY(-4px);
+}
+
+.Follow_us {
+  height: 95px;
+  /* background-color: gainsboro; */
+  border-top: solid 2px #333333;
+  border-bottom: solid 2px #333333;
+  width: 100%;
+  max-width: 100%;
+  display:  inline-block;
+  padding-top: 40px;
+}
+
+.follow_center {
+  display: flex;
+  height: 28px;
+  margin-top: 19px;
+  /* background-color: red; */
+  justify-content: center;
+}
+
+.share_two img {
+  width: 28px;
+  height: 28px;
+  margin-left: 30px;
+  /* margin-right: 15px; */
+}
+
+.share_follow_us p {
+  font-size: 20px;
+  color: #005bac;
+  text-align: center;
+  line-height: 30px;
+  margin: auto;
+  margin-left: 20px;
+  margin-right: 40px;
+}
+
+.pageback_two {
+  /* background-color: forestgreen; */
+  width: 1000px;
+  max-width: 1100px;
+  height: 800px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 40px;
+  /* border-bottom: solid 3px #333333; */
+  display: flex;
+  flex-wrap:wrap;
+  align-content: flex-start;
+  
+  /* justify-content: space-between; */
+  /* align-items: flex-start; */
+}
+
+.link_collection_box {
+  height: 326px;
+  width: 240px;
+  /* background-color: pink; */
+  margin-top: 0;
+  margin: 5px;
+  
+}
+
+.link_top_box {
+  width: 240px;
+  height: 50px;
+  border-top: solid 1px #666666;
+  border-bottom: solid 1px #666666;
+  /* background-color: yellow; */
+  margin: 0px;
+}
+
+
+.link_top_box::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #333333;
+	border-right: solid 1px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(46deg) translateX(-1px) translateY(-2px);
+}
+
+.link_top_box_text {
+  font-size: 14.6px;
+  font-weight: bold;
+  line-height: 50px;
+  color: #666666;
+  margin-left: 10px;
+}
+
+.link_top_box_text:hover {
+  text-decoration: underline;
+}
+
+.ul {
+  list-style-type: none;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.li_text {
+  color: #666666;
+  font-size: 14px;
+  }
+
+  .li_text:hover {
+    text-decoration: underline;
+  }
+
+.li_text::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #666666;
+	border-right: solid 1px #666666;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(45deg) translateX(-10px) translateY(7px);
+}
+
+li {
+  margin-bottom: 13px;
+}
+
+.link_top_box_bottom {
+  width: 240px;
+  height: 50px;
+  border-top: solid 1px #666666;
+  border-bottom: solid 1px #666666;
+  /* background-color: yellow; */
+  margin: 0px 5px;
+  
+}
+
+.link_top_box_bottom::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #666666;
+	border-right: solid 1px #666666;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(45deg) translateX(-3px) translateY(-1px);
+}
+
+
+.footer_Information {
+  height: 23px;
+  width: 1000px;
+  /* background-color: yellow; */
+  margin: auto;
+}
+
+.footer_ul {
+  display: flex;
+}
+
+.footer_li {
+  list-style-type: none;
+  color: red;
+  flex-grow: 1;
+  text-align: center;
+  
+}
+
+.footer_li + .footer_li {
+  border-left: 1px solid #666666;
+}
+
+.footer_text {
+  font-size: 12px;
+  color: #666666;
+}
+
+.footer_text:hover {
+  text-decoration: underline;
+  }
+
+.copyright {
+  font-size: 10px;
+
+}
+
+footer {
+  width: 1000px;
+  height: 100px;
+}
