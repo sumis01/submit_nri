@@ -7,6 +7,17 @@ header {
   background-color: #FFFFFF;
 }
 
+.title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight:  bold;
+}
+
+.title img {
+  padding-top: 5px;
+
+}
+
+
 .header {
   position: relative;
   left: 0px;
@@ -56,6 +67,7 @@ header {
   font-size: 20px;
   color: #FFFFFF;
   padding:  30px 0 0 200px;
+  font-family: "Noto Sans JP", sans-serif;
 }
 
 .irheadertwo  {
@@ -63,6 +75,8 @@ header {
   line-height: 42px;
   color: #FFFFFF;
   padding: 5px 0 0 200px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight:  bold;
 }
 
 .pageback {
@@ -227,6 +241,21 @@ button.bws-arrow {
   position: relative;
 }
 
+.Businesleft::Before {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #333333;
+	border-right: solid 1px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(-135deg) translateX(3px) translateY(1px);
+}
+
+
 .Businesleft {
   float: left;
   font-size: 16px;
@@ -236,6 +265,21 @@ button.bws-arrow {
 .Businesleft:hover {
   text-decoration: underline;
 }
+
+.Businesright::after {
+	content: '';
+	display: inline-block;
+	padding: 0;
+	width: 5px;
+	height: 5px;
+	border-top: solid 1px #333333;
+	border-right: solid 1px #333333;
+	-webkit-transform-origin: center;
+	-ms-transform-origin: center;
+	transform-origin: center;
+	transform: rotate(45deg) translateX(1px) translateY(-5px);
+}
+
 
 .Businesright {
   float: right;
@@ -394,7 +438,7 @@ button.bw-arrow {
 	-webkit-transform-origin: center;
 	-ms-transform-origin: center;
 	transform-origin: center;
-	transform: rotate(45deg) translateX(-5px) translateY(5px);
+	transform: rotate(45deg) translateX(1px) translateY(0px);
 }
 
 .bw-arrowunder:hover {
@@ -494,7 +538,7 @@ button.bw-arrowunder {
 	-webkit-transform-origin: center;
 	-ms-transform-origin: center;
 	transform-origin: center;
-	transform: rotate(45deg) translateX(-5px) translateY(5px);
+	transform: rotate(45deg) translateX(-9px) translateY(5px);
 }
 
 .link_collection_two {
